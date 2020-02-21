@@ -1,0 +1,19 @@
+<header><h1>Current Weather Data</h1></header>
+<body>
+    
+
+<h2>The weather in {{name}} is:</h2>
+<ul>
+    <li><ion-icon name="location-outline" id="coord"></ion-icon> Coords: {{lon}} {{lat}}</li>
+    <li><ion-icon name="partly-sunny-outline"></ion-icon> Predicted weather: {{weatherMain}}, {{weatherDescription}}</li>
+    <li><ion-icon name="thermometer-outline"></ion-icon> Outside temp: {{temp}}</li>
+    <li><ion-icon name="thermometer-outline"></ion-icon> Feels like: {{feelsLike}}</li>
+    <li><ion-icon name="code-download-outline"></ion-icon> Pressure: {{pressure}}</li>
+    <li><ion-icon name="glasses-outline"></ion-icon> Visibility: {{vis}}</li>
+    <li><ion-icon name="speedometer-outline"></ion-icon> Wind speed/deg: {{windSpeed}}, {{windDeg}}</li>
+    <li><ion-icon name="cloud-outline"></ion-icon> Clouds: {{clouds}}</li>
+    <li><ion-icon name="sunny-outline"></ion-icon> Sunrise: {{sunrise}}</li>
+    <li><ion-icon name="moon-outline"></ion-icon> Sunset: {{sunset}}</li>
+</ul>
+</body>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
